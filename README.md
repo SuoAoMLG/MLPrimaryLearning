@@ -1,6 +1,6 @@
 # MLPrimaryLearning
 ### Management Informations
-+ This is created by JackieZhai in 2018-12-8
++ This repo is created by JackieZhai on 2018-12-8
 ---
 ### Contribution Informations
 
