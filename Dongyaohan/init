@@ -1,0 +1,23 @@
+list = [10,30,76,5,18,0,24,8,16,66,92,84,53,19]
+print(list)
+def bubble_sort(list):
+    count = len(list)
+    for i in range(0,count):
+        for j in range(i+1,count):
+            if list[i] > list[j]:
+                list[i],list[j] = list[j],list[i]
+    return list
+
+def select_sort(list):
+    count = len(list)
+    for i in range(count - 1):
+        min = i
+        for j in range(i,count):
+            if list[min] > list[j]:
+                min = j
+        list[min],list[i] = list[i],list[min]
+    return list
+
+
+print(bubble_sort(list))
+print(select_sort(list))
